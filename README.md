@@ -92,7 +92,7 @@ print(f"NDCG@k:   {run.metrics['ndcg_at_k']:.3f}")
 pip install git+https://github.com/brandon-behring/ir-eval.git  # PyPI release pending
 
 # With optional scipy (faster Fisher exact test)
-pip install "ir-eval[scipy]"
+pip install "ir-eval[scipy] @ git+https://github.com/brandon-behring/ir-eval.git"  # PyPI release pending
 ```
 
 ## Metrics
