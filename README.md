@@ -7,9 +7,11 @@ Statistical retrieval evaluation framework with golden-set metrics and drift det
 
 > **ranx** is for papers. **ir-eval** is for CI/CD pipelines.
 
-Most RAG systems fail silently. ir-eval catches regression before users do — with paired statistical tests, not LLM-as-judge.
+RAG regressions are easy to miss. ir-eval puts statistical gates in your CI — paired tests and bootstrap confidence intervals, not LLM-as-judge.
 
 ## Why ir-eval?
+
+*(comparison as of 2026-08; competitor capabilities move — verify before relying on a row)*
 
 | Feature | ir-eval | RAGAS | DeepEval | ranx |
 |---------|---------|-------|----------|------|
